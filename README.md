@@ -1,9 +1,23 @@
 ## What's this?
 This is an example on how the `transient` keyword works in Java.
 
-## How to Run
+## How to Compile and Run
 - Have a JRE (Java 17 or later) available
-- Launch `App.java` 
+- Open terminal on root folder
+
+### Compile
+`javac -d bin/ -cp src src/org/ingomohr/transientexample/*.java`
+
+- `d`: destination directory for the class files
+- `cp`: classpath
+
+### Run
+`java -cp bin org.ingomohr.transientexample.App`
+
+### Quick-Run
+Call
+
+`./run.sh`
 
 
 ### Output
