@@ -1,23 +1,26 @@
 ## What's this?
 This is an example on how the `transient` keyword works in Java.
 
-## How to Compile and Run
+This will create a `MyData` object, serialize it to a file on the desktop and deserialize it back to a new object and then print both objects to the console.
+
+
+## How to Launch
 - Have a JRE (Java 17 or later) available
 - Open terminal on root folder
+- Call
 
-### Compile
+`./run.sh`
+
+
+### Alternatively: Compile and Run
+#### Compile
 `javac -d bin/ -cp src src/org/ingomohr/transientexample/*.java`
 
 - `d`: destination directory for the class files
 - `cp`: classpath
 
-### Run
+#### Run
 `java -cp bin org.ingomohr.transientexample.App`
-
-### Quick-Run
-Call
-
-`./run.sh`
 
 
 ### Output
