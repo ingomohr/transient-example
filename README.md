@@ -11,7 +11,7 @@ Does this for a binary file and an XML file.
 - Open terminal on root folder
 - Call
 
-`./run.sh`
+`./run.sh` or `run.bat`
 
 
 ### Alternatively: Compile and Run
